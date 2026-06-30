@@ -4,7 +4,14 @@
     "href": "charts.html",
     "title": "Interactive Stock Charts",
     "section": "",
-    "text": "Select Stock:\n        \n            AAPL - Apple\n            GOOGL - Google\n            MSFT - Microsoft\n            AMZN - Amazon\n            TSLA - Tesla\n            NVDA - NVIDIA\n            META - Meta\n            NFLX - Netflix\n            ADBE - Adobe\n            INTC - Intel\n        \n    \n    AAPL\n    \n        --\n        --\n    \n\n\n\n    Chart Type:\n    \n        Candlestick\n        Line\n        OHLC\n    \n\n    Time Period:\n    \n        1M\n        3M\n        6M\n        1Y\n        All\n    \n\n\n\n\n\n    \n        Open\n        --\n    \n    \n        High (Period)\n        --\n    \n    \n        Low (Period)\n        --\n    \n    \n        Avg Volume\n        --\n    \n    \n        52W High\n        --\n    \n    \n        52W Low\n        --"
+    "text": "Use the dropdown below to explore interactive charts for 10 major NASDAQ stocks.\n\n\n\n    \n        Select Stock:\n        \n            AAPL - Apple\n            GOOGL - Google\n            MSFT - Microsoft\n            AMZN - Amazon\n            TSLA - Tesla\n            NVDA - NVIDIA\n            META - Meta\n            NFLX - Netflix\n            ADBE - Adobe\n            INTC - Intel\n        \n    \n    \n    \n        --\n        --\n    \n\n\n\n    Chart Type:\n    \n        Candlestick\n        Line\n        OHLC\n    \n\n    Time Period:\n    \n        1M\n        3M\n        6M\n        1Y\n        All\n    \n\n\n\n\n\n    \n        Open\n        --\n    \n    \n        High (Period)\n        --\n    \n    \n        Low (Period)\n        --\n    \n    \n        Avg Volume\n        --\n    \n    \n        52W High\n        --\n    \n    \n        52W Low\n        --"
+  },
+  {
+    "objectID": "charts.html#select-a-stock",
+    "href": "charts.html#select-a-stock",
+    "title": "Interactive Stock Charts",
+    "section": "",
+    "text": "Use the dropdown below to explore interactive charts for 10 major NASDAQ stocks.\n\n\n\n    \n        Select Stock:\n        \n            AAPL - Apple\n            GOOGL - Google\n            MSFT - Microsoft\n            AMZN - Amazon\n            TSLA - Tesla\n            NVDA - NVIDIA\n            META - Meta\n            NFLX - Netflix\n            ADBE - Adobe\n            INTC - Intel\n        \n    \n    \n    \n        --\n        --\n    \n\n\n\n    Chart Type:\n    \n        Candlestick\n        Line\n        OHLC\n    \n\n    Time Period:\n    \n        1M\n        3M\n        6M\n        1Y\n        All\n    \n\n\n\n\n\n    \n        Open\n        --\n    \n    \n        High (Period)\n        --\n    \n    \n        Low (Period)\n        --\n    \n    \n        Avg Volume\n        --\n    \n    \n        52W High\n        --\n    \n    \n        52W Low\n        --"
   },
   {
     "objectID": "plan.html",
