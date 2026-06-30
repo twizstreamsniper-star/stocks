@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NASDAQ Stock Charts",
+    "section": "",
+    "text": "This project provides an interactive charting dashboard for analyzing historical stock price data from 10 major NASDAQ companies.\n\n\n\nAAPL - Apple Inc.\nGOOGL - Alphabet Inc.\nMSFT - Microsoft Corporation\nAMZN - Amazon.com Inc.\nTSLA - Tesla Inc.\nNVDA - NVIDIA Corporation\nMETA - Meta Platforms Inc.\nNFLX - Netflix Inc.\nADBE - Adobe Inc.\nINTC - Intel Corporation\n\n\n\n\n\n📊 Interactive Charts - Candlestick, OHLC, and Line chart types\n📅 Time Filtering - View 1M, 3M, 6M, 1Y, or all-time data\n📈 Real-time Statistics - Open, High, Low, Volume, and 52-week metrics\n🔄 Dynamic Stock Selection - Switch between stocks seamlessly\n\n\n\n\nAll historical data is sourced directly from NASDAQ.com, covering approximately 2 years of trading data (~499 trading days per stock).\nView the Interactive Chart →"
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "NASDAQ Stock Charts",
+    "section": "",
+    "text": "This project provides an interactive charting dashboard for analyzing historical stock price data from 10 major NASDAQ companies.\n\n\n\nAAPL - Apple Inc.\nGOOGL - Alphabet Inc.\nMSFT - Microsoft Corporation\nAMZN - Amazon.com Inc.\nTSLA - Tesla Inc.\nNVDA - NVIDIA Corporation\nMETA - Meta Platforms Inc.\nNFLX - Netflix Inc.\nADBE - Adobe Inc.\nINTC - Intel Corporation\n\n\n\n\n\n📊 Interactive Charts - Candlestick, OHLC, and Line chart types\n📅 Time Filtering - View 1M, 3M, 6M, 1Y, or all-time data\n📈 Real-time Statistics - Open, High, Low, Volume, and 52-week metrics\n🔄 Dynamic Stock Selection - Switch between stocks seamlessly\n\n\n\n\nAll historical data is sourced directly from NASDAQ.com, covering approximately 2 years of trading data (~499 trading days per stock).\nView the Interactive Chart →"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About This Project",
+    "section": "",
+    "text": "This website provides an interactive dashboard for analyzing historical stock price data from major NASDAQ-listed technology companies."
+  },
+  {
+    "objectID": "about.html#project-overview",
+    "href": "about.html#project-overview",
+    "title": "About This Project",
+    "section": "",
+    "text": "This website provides an interactive dashboard for analyzing historical stock price data from major NASDAQ-listed technology companies."
+  },
+  {
+    "objectID": "about.html#technical-stack",
+    "href": "about.html#technical-stack",
+    "title": "About This Project",
+    "section": "Technical Stack",
+    "text": "Technical Stack\n\nData Collection: Python with requests and pandas libraries\nData Source: NASDAQ API (https://api.nasdaq.com/)\nFrontend: HTML5, JavaScript, Plotly.js for interactive charting\nData Format: CSV files with OHLCV (Open, High, Low, Close, Volume) data\nVisualization: Quarto website with embedded interactive charts"
+  },
+  {
+    "objectID": "about.html#data-details",
+    "href": "about.html#data-details",
+    "title": "About This Project",
+    "section": "Data Details",
+    "text": "Data Details\n\nDate Range: Approximately 2 years of historical data (2024-2026)\nTrading Days: ~499 trading days per stock\nUpdate Frequency: Data extracted as of June 2026\nStocks Covered: 10 major tech companies (AAPL, GOOGL, MSFT, AMZN, TSLA, NVDA, META, NFLX, ADBE, INTC)"
+  },
+  {
+    "objectID": "about.html#chart-features",
+    "href": "about.html#chart-features",
+    "title": "About This Project",
+    "section": "Chart Features",
+    "text": "Chart Features\n\nChart Types\n\nCandlestick: Shows open, high, low, close with traditional candlestick format\nOHLC: Traditional open-high-low-close bar chart\nLine: Simple line chart showing closing prices\n\n\n\nTime Periods\n\n1M: Last 1 month\n3M: Last 3 months\n6M: Last 6 months\n1Y: Last 1 year\nAll: Complete dataset\n\n\n\nStatistics\n\nCurrent Price & Change\nOpening Price\n52-Week High/Low\nAverage Volume\nDynamic filtering based on selected time period"
+  },
+  {
+    "objectID": "about.html#repository",
+    "href": "about.html#repository",
+    "title": "About This Project",
+    "section": "Repository",
+    "text": "Repository\nAll code is available on GitHub. The Python scraper can be used to fetch updated stock data, and the visualization can be deployed anywhere that serves static HTML/CSS/JavaScript files."
+  },
+  {
+    "objectID": "plan.html",
+    "href": "plan.html",
+    "title": "Stock Price Dataset Builder - Plan",
+    "section": "",
+    "text": "Build a dataset of historical stock price data from NASDAQ (https://www.nasdaq.com/market-activity/quotes/historical)\n\n\n\n\n\n\nExamine the NASDAQ historical quotes page structure\nIdentify how data is loaded (API, HTML parsing, etc.)\nReverse-engineer the data source\n\n\n\n\n\nFind the underlying API or data endpoint\nDetermine required parameters (stock symbol, date range, etc.)\nUnderstand data format and fields\n\n\n\n\n\nCreate Python scraper to fetch historical data\nSupport fetching individual stocks (e.g., just Apple)\nSupport fetching multiple stocks in bulk\nClean and format data consistently\n\n\n\n\n\nSave to CSV files with columns: date, open, high, low, close, volume\nStore individual stock files in downloads/ directory\nOrganized and ready for analysis\n\n\n\n\n/workspaces/stocks/\n├── code/              # Python scraping code\n│   └── scraper.py\n├── downloads/         # CSV output files\n│   └── AAPL.csv\n└── plan.md           # This file\n\n\n\n\n\n✅ Create directory structure\n⏳ Examine NASDAQ data source\n⏳ Build Python scraper\n⏳ Fetch Apple (AAPL) historical data\n⏳ Save to downloads/AAPL.csv\n⏳ Test and validate data"
+  },
+  {
+    "objectID": "plan.html#goal",
+    "href": "plan.html#goal",
+    "title": "Stock Price Dataset Builder - Plan",
+    "section": "",
+    "text": "Build a dataset of historical stock price data from NASDAQ (https://www.nasdaq.com/market-activity/quotes/historical)"
+  },
+  {
+    "objectID": "plan.html#approach",
+    "href": "plan.html#approach",
+    "title": "Stock Price Dataset Builder - Plan",
+    "section": "",
+    "text": "Examine the NASDAQ historical quotes page structure\nIdentify how data is loaded (API, HTML parsing, etc.)\nReverse-engineer the data source\n\n\n\n\n\nFind the underlying API or data endpoint\nDetermine required parameters (stock symbol, date range, etc.)\nUnderstand data format and fields\n\n\n\n\n\nCreate Python scraper to fetch historical data\nSupport fetching individual stocks (e.g., just Apple)\nSupport fetching multiple stocks in bulk\nClean and format data consistently\n\n\n\n\n\nSave to CSV files with columns: date, open, high, low, close, volume\nStore individual stock files in downloads/ directory\nOrganized and ready for analysis\n\n\n\n\n/workspaces/stocks/\n├── code/              # Python scraping code\n│   └── scraper.py\n├── downloads/         # CSV output files\n│   └── AAPL.csv\n└── plan.md           # This file"
+  },
+  {
+    "objectID": "plan.html#implementation-steps",
+    "href": "plan.html#implementation-steps",
+    "title": "Stock Price Dataset Builder - Plan",
+    "section": "",
+    "text": "✅ Create directory structure\n⏳ Examine NASDAQ data source\n⏳ Build Python scraper\n⏳ Fetch Apple (AAPL) historical data\n⏳ Save to downloads/AAPL.csv\n⏳ Test and validate data"
+  }
+]

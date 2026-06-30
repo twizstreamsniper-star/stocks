@@ -1,0 +1,47 @@
+---
+title: "About This Project"
+---
+
+## Project Overview
+
+This website provides an interactive dashboard for analyzing historical stock price data from major NASDAQ-listed technology companies.
+
+## Technical Stack
+
+- **Data Collection**: Python with `requests` and `pandas` libraries
+- **Data Source**: NASDAQ API (https://api.nasdaq.com/)
+- **Frontend**: HTML5, JavaScript, Plotly.js for interactive charting
+- **Data Format**: CSV files with OHLCV (Open, High, Low, Close, Volume) data
+- **Visualization**: Quarto website with embedded interactive charts
+
+## Data Details
+
+- **Date Range**: Approximately 2 years of historical data (2024-2026)
+- **Trading Days**: ~499 trading days per stock
+- **Update Frequency**: Data extracted as of June 2026
+- **Stocks Covered**: 10 major tech companies (AAPL, GOOGL, MSFT, AMZN, TSLA, NVDA, META, NFLX, ADBE, INTC)
+
+## Chart Features
+
+### Chart Types
+- **Candlestick**: Shows open, high, low, close with traditional candlestick format
+- **OHLC**: Traditional open-high-low-close bar chart
+- **Line**: Simple line chart showing closing prices
+
+### Time Periods
+- **1M**: Last 1 month
+- **3M**: Last 3 months
+- **6M**: Last 6 months
+- **1Y**: Last 1 year
+- **All**: Complete dataset
+
+### Statistics
+- Current Price & Change
+- Opening Price
+- 52-Week High/Low
+- Average Volume
+- Dynamic filtering based on selected time period
+
+## Repository
+
+All code is available on GitHub. The Python scraper can be used to fetch updated stock data, and the visualization can be deployed anywhere that serves static HTML/CSS/JavaScript files.
