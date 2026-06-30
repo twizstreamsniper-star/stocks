@@ -2,6 +2,10 @@
 title: "Interactive Stock Charts"
 ---
 
+## Select a Stock
+
+Use the dropdown below to explore interactive charts for 10 major NASDAQ stocks.
+
 ```{=html}
 <style>
     .header {

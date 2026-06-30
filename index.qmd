@@ -31,4 +31,4 @@ This project provides an interactive charting dashboard for analyzing historical
 
 All historical data is sourced directly from [NASDAQ.com](https://www.nasdaq.com/market-activity/quotes/historical), covering approximately 2 years of trading data (~499 trading days per stock).
 
-[View the Interactive Chart →](chart.html){.btn .btn-primary}
+[View the Interactive Chart →](charts.html){.btn .btn-primary}

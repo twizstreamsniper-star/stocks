@@ -10,7 +10,8 @@ website:
         text: Home
       - href: charts.qmd
         text: Charts
-      - about.qmd
+      - href: about.qmd
+        text: About
 
 format:
   html:
